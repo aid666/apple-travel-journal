@@ -63,7 +63,7 @@ If the user provides a style reference URL:
    - Punctuation style (English vs Chinese punctuation)
    - Sentence length and structure patterns
    - Level of emotional expression (restrained vs effusive)
-   - Use of practical information (prices, transport, tips)
+   - Use of practical information (transport, logistics)
    - Humor style and frequency
    - Section/heading structure
    - What the author avoids (purple prose, clichés, etc.)
@@ -79,18 +79,19 @@ Using the collected itinerary, photos, and style guide:
 1. **Structure**: Create a day-by-day narrative following the calendar itinerary
 2. **Photo-driven narration** (critical rule):
    - The narrative must revolve around the selected photos — each photo is a narrative anchor
-   - For scenes/locations captured in photos: describe what is shown, expand with relevant context and practical info
+   - For scenes/locations captured in photos: describe what is shown, expand with relevant context
    - For itinerary items NOT covered by any photo: include only a minimal mention (one or two sentences) based on the calendar event; do NOT fabricate visual details or elaborate descriptions for unphoto'd events
    - The ratio of photo-backed content to calendar-only content should be heavily skewed toward photos
 3. **Content per day**:
    - Opening: Where, basic logistics
    - Body: Walk through the day anchored by photos, in chronological order
    - Photos: Insert images at the point in the narrative where they are discussed
-   - Practical info: Weave in transport, costs, tips naturally
+   - Practical info: Weave in transport and logistics naturally
 4. **Writing rules** (apply the style guide strictly):
    - Match the identified or default punctuation style
    - Match the identified or default tone and restraint level
    - No unsupported flourishes — only write about what the data supports
+   - No discussion of prices, costs, money-saving tips, or budget topics
 4. **Photos in HTML**:
    - Use `<img>` tags with local file paths or base64 encoding
    - Add brief captions using `<p class="photo-caption">` when appropriate
@@ -128,7 +129,8 @@ The default writing style guide is at `references/writing-style-guide.md`. Key p
 - **Composed and steady tone**: no internet slang, no trendy buzzwords (e.g. "yyds", "绝绝子", "氛围感", "打卡")
 - **Short sentences**, calm and conversational
 - **No purple prose**: no metaphors, no life lessons, no poetry quotes
-- **Practical info woven in**: transport, cost, booking tips
+- **No price/cost discussion**: do not mention prices, expenses, budgets, or money-saving tips
+- **Logistics only**: transport methods, booking/reservation info where relevant
 - **Occasional dry humor**: self-deprecating, never forced
 
 ## HTML Output
